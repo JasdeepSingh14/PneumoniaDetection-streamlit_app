@@ -5,3 +5,5 @@ torchvision
 Pillow
 numpy
 pandas
+pydicom
+reportlab
