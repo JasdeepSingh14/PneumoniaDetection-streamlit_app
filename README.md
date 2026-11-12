@@ -1,4 +1,4 @@
-# 🫁 Pneumonia Detection from Chest X-rays Using Deep Learning
+# Pneumonia Detection from Chest X-rays Using Deep Learning
 
 An AI-powered Chest X-ray Screening Application built using **Python, PyTorch, Convolutional Neural Networks (CNN), Grad-CAM and Streamlit**.
 
