@@ -26,23 +26,19 @@ The application goes beyond basic image classification by integrating Grad-CAM e
 
 ### 1. Home / Image Upload
 
-<img width="2037" height="541" alt="merged-image-2026-11-12T07-49-58" src="https://github.com/user-attachments/assets/d5a45e61-38e7-4f45-a898-ada9627e1046" />
-
+<img width="1365" height="605" alt="image" src="https://github.com/user-attachments/assets/ebc41231-3fee-4ac7-a0c1-e0deb9998152" />
 
 ### 2. Prediction Results
 
-![Prediction Results](<img width="1366" height="606" alt="image" src="https://github.com/user-attachments/assets/2af52c58-7aa2-4f26-b61f-2d1966bcf49b" />
-)
+<img width="1366" height="607" alt="image" src="https://github.com/user-attachments/assets/e48cad98-3206-4ddf-b8c2-08f059c32a74" />
 
 ### 3. Grad-CAM Visualization
 
-![Grad-CAM](<img width="1459" height="540" alt="merged-image-2026-11-12T07-43-35" src="https://github.com/user-attachments/assets/e9fdcac1-cd32-46ec-80a4-20e5d90647ad" />
-)
+<img width="1459" height="540" alt="merged-image-2026-11-12T07-43-35" src="https://github.com/user-attachments/assets/caae79e7-51a4-4c9e-9fb8-db7aad932b83" />
 
 ### 4. Dashboard
 
-![Dashboard](<img width="2037" height="541" alt="merged-image-2026-11-12T07-49-58" src="https://github.com/user-attachments/assets/342a44c4-5884-4480-9a63-1e91ac8145a5" />
-)
+<img width="2037" height="541" alt="merged-image-2026-11-12T07-49-58" src="https://github.com/user-attachments/assets/d5a45e61-38e7-4f45-a898-ada9627e1046" />
 
 ## ✨ Key Features
 
