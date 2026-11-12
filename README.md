@@ -26,7 +26,8 @@ The application goes beyond basic image classification by integrating Grad-CAM e
 
 ### 1. Home / Image Upload
 
-<img width="1366" alt="Home Interface" src="https://github.com/user-attachments/assets/751318c8-9c5f-44eb-b64c-5647d114184d" />
+<img width="2037" height="541" alt="merged-image-2026-11-12T07-49-58" src="https://github.com/user-attachments/assets/d5a45e61-38e7-4f45-a898-ada9627e1046" />
+
 
 ### 2. Prediction Results
 
