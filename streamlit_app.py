@@ -310,7 +310,7 @@ st.title("Chest X-ray analysis")
 st.write("Upload a chest X-ray to see the model's prediction and the lung regions that drove it.")
 
 tab_analyze, tab_dashboard, tab_history, tab_about = st.tabs(
-    ["🔬 Analyze", "📊 Dashboard", "📋 Session history", "ℹ️ About the model"]
+    ["🔬 Analyze", "📊 Dashboard", "📋 Session history", "ℹ️ About"]
 )
 
 # =========================================================================== #
@@ -640,7 +640,7 @@ with tab_history:
 with tab_about:
     n_params = sum(p.numel() for p in model.parameters())
 
-    st.subheader("🎯 Purpose")
+    st.subheader("Purpose")
     st.markdown(
         """
 This application is a **research prototype for chest X-ray screening**. For each image it tells you whether
@@ -651,7 +651,7 @@ It is intended for learning, demonstration and as a base for further research. I
 """
     )
 
-    st.subheader("🧭 How to use it")
+    st.subheader("How to use it")
     st.markdown(
         """
 1. *(Optional)* Enter patient details in the sidebar and press **Save patient details**.
@@ -663,7 +663,7 @@ It is intended for learning, demonstration and as a base for further research. I
 """
     )
 
-    st.subheader("⚙️ How an image is processed")
+    st.subheader("How an image is processed")
     st.markdown(
         """
 1. **Load.** JPEG and PNG files are opened directly. DICOM files are decoded, scaled to 8-bit using the window
@@ -677,7 +677,7 @@ It is intended for learning, demonstration and as a base for further research. I
 """
     )
 
-    st.subheader("🧠 The model")
+    st.subheader("The model")
     st.markdown(
         f"""
 | | |
@@ -690,7 +690,7 @@ It is intended for learning, demonstration and as a base for further research. I
 """
     )
 
-    st.subheader("🏋️ Training and results")
+    st.subheader("Training and results")
     st.markdown(
         """
 **Data.** 5,856 chest X-rays labelled Normal or Pneumonia, split into 3,982 for training, 702 for validation
@@ -720,7 +720,7 @@ The 43 pneumonia images predicted as Normal are the most serious kind of error: 
 """
     )
 
-    st.subheader("🔥 Heatmap and severity estimate")
+    st.subheader("Heatmap and severity estimate")
     st.markdown(
         """
 **Grad-CAM heatmap.** The gradient of the predicted class score is traced back to the last convolution block.
@@ -741,7 +741,7 @@ This is a simple heuristic based on the model's attention, **not a clinical seve
 """
     )
 
-    st.subheader("📄 PDF report")
+    st.subheader("PDF report")
     st.markdown(
         """
 The one-page report contains the patient details you saved, the image name, the prediction with its confidence
@@ -750,7 +750,7 @@ the upload was a DICOM file, and the disclaimer.
 """
     )
 
-    st.subheader("⚠️ Limitations and responsible use")
+    st.subheader("Limitations and responsible use")
     st.markdown(
         """
 - **Not for clinical use.** The app is not a certified medical device and must not be used to diagnose or rule out pneumonia.
@@ -767,5 +767,5 @@ the upload was a DICOM file, and the disclaimer.
 """
     )
 
-    st.subheader("🛠️ Built with")
+    st.subheader("Built with")
     st.markdown("Python · PyTorch · torchvision · Streamlit · Pillow · NumPy · pandas · pydicom · ReportLab")
