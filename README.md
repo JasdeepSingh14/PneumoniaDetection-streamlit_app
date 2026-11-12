@@ -378,8 +378,3 @@ http://localhost:8501
 - GitHub: [@JasdeepSingh14](https://github.com/JasdeepSingh14)
 
 ---
-
-⭐ If you find this project useful, consider giving the repository a star!
-
-
-
